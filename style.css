@@ -5,8 +5,7 @@
 }
 
 body {
-  margin-bottom: 50px;
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -56,6 +55,10 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.primary-link:hover {
+  color: white;
 }
 
 .secondary-link {
@@ -113,9 +116,11 @@ img-fluid {
   border-radius: 25 rem !important;
 }
 .contact-me-links {
-  margin-top: 50px;
-  text-align: center;
+  background-color: #f5f2fe;
   justify-content: center;
+  margin-top: 50px;
+  padding: 75px 75px;
+  text-align: center;
 }
 .contact-me-links a {
   margin-top: 50px;
@@ -126,17 +131,23 @@ img-fluid {
   text-decoration: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 576px) {
   h1 {
-    font-size: 48px;
+    font-size: 56px;
   }
   .stars {
     font-size: 26px;
   }
-}
-
-@media (max-width: 900px) {
   h2 {
-    font-size: 30px;
+    font-size: 28px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
   }
 }
