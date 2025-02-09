@@ -106,3 +106,16 @@ img-fluid {
 .rounded {
   border-radius: 25 rem !important;
 }
+.contact-me-links {
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.contact-me-links a {
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 22px;
+  text-decoration: none;
+}
